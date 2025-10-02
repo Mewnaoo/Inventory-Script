@@ -1,0 +1,7 @@
+repeat task.wait() until game:IsLoaded()
+local gameId = game.GameId
+local GameList = {
+    [7326934954] = "Bring.lua",
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nop-HuB/-....-/__/" ..  GameList[gameId]))()
