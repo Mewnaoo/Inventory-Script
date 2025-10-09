@@ -44,14 +44,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/99dayslo
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mewnaoo/Nao-Script/refs/heads/Custom/NaoHub.lua", true))()
   end
   })
-    })
+        AddButton(Tab1o, {
+     Name = "Bloxstap",
+    Callback = function()
+	 loadstring(game:HttpGet('https://raw.githubusercontent.com/qwertyui-is-back/Bloxstrap/main/Initiate.lua'), 'lol')()
+  end
+  })
       AddButton(Tab1o, {
      Name = "Voidware",
     Callback = function()
 	 loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/refs/heads/main/newnightsintheforest.lua", true))()
   end
   })
-    })
       AddButton(Tab1o, {
      Name = "คนไทย",
     Callback = function()
